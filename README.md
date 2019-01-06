@@ -63,3 +63,6 @@ Ainsi, pour notifier le **secretary.component**, nous devions créer ```Emmiter`
 
 ## Regard rétrospectif sur notre projet
 En regardant ce que nous avons fait, nous avons le sentiment que nous pourrions mieux répartir les fonctionnalités entre les composants. Mais cela ne fait que valider l’importance d’une bonne architecture dans tout développement logiciel.
+
+### Coulibaly Kadidiatou
+### Firsov Oleksandr
