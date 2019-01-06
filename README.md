@@ -5,13 +5,10 @@
 
 
 
-## Sommaire
-
-[TOC]
-
 ## IMPORTANTE
-login: admin
-pass: admin123
+**login:** admin
+
+**pass:** admin123
 
 
 ## Introduction
