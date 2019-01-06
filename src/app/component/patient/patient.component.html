@@ -1,0 +1,14 @@
+
+<div class="example-container">
+  <h2>Sans infirmier</h2>
+
+  <div
+    cdkDropList
+    id='none'
+    #none="cdkDropList"
+    class="example-list"
+    (cdkDropListDropped)="drop($event)">
+    <div class="example-box" *ngFor="let patient of patientInput" cdkDrag>{{patient.nom}} {{patient.prenom}} | {{patient.numeroSecuriteSociale}}
+    </div>
+  </div>
+</div>

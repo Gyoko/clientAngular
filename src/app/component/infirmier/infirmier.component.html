@@ -1,0 +1,14 @@
+
+<div class="example-container">
+
+  <div mat-card-avatar class="example-header-image"><img [src]="imgSrc"/>  {{infirmierInput.nom}} {{infirmierInput.prenom}}</div>
+  <div
+    cdkDropList
+    id='{{infirmierInput.id}}'
+    #{{infirmierInput.id}}="cdkDropList"
+    class="example-list"
+    (cdkDropListDropped)="drop($event)">
+    <div class="example-box" *ngFor="let patient of infirmierInput.patients" cdkDrag>{{patient.nom}} {{patient.prenom}} | {{patient.numeroSecuriteSociale}}
+    </div>
+  </div>
+</div>
